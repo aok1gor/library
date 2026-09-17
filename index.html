@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <form id="my-form">
+        <label for="field-name">Name of the book:</label>
+        <input type="text" id="field-name" name="name">
+
+        <label for="field-author">Name of the author:</label>
+        <input type="text" id="field-author" name="author">
+
+        <label for="field-pages">Number of pages:</label>
+        <input type="text" id="field-pages" name="pages">
+
+        <label for="field-read">Have you read it:</label>
+        <input type="text" id="field-read" name="read">
+
+        <button type="submit">Add book to library</button>
+    </form>
+
+    <table border="1" id="table-library">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Author</th>
+                <th>Pages</th>
+                <th>Read</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="tabela-biblioteca">
+            
+        </tbody>
+    </table>
+
+
+
+</body>
+</html>
