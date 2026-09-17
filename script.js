@@ -67,7 +67,7 @@ function renderLibrary() {
         const tdRead = document.createElement("td");
         tdRead.textContent = book.read;
 
-         // Criar a célula da ação e o botão de deletar
+         // Criar a célula de mudar leitura
         const tdReadChange = document.createElement("td");
         const readChangeBtn = document.createElement("button");
         readChangeBtn.textContent = "Read/Unread";
